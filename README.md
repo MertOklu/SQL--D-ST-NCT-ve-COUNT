@@ -18,4 +18,4 @@ SELECT COUNT(*) FROM country WHERE country  LIKE '_____' ;
 
 5-City tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
 
-* SELECT COUNT(*) FROM city  WHERE city   LIKE 'R%r' ;
+* SELECT COUNT(*) FROM city  WHERE city   ILIKE 'R' ;
